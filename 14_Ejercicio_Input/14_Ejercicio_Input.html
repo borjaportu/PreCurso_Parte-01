@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Tu código aquí.
+        let nombre;
+        nombre = prompt("Hola cómo te llamas?");
+        // console.log(typeof(nombre));
+        let edad;
+        edad = prompt("Cuántos años tienes?");
+        // console.log(typeof(edad));
+        let años;
+        años = parseInt(edad); // Al cambiar a numérico, se usa la nueva variable, no edad.
+        // console.log(typeof(años));
+        console.log("Hola " + nombre + " tienes " + años + " años.")
+        años = años + 1;
+        console.log("El año que viene tendrás " + años + " años.");
+
+        // console.log("El año que viene tendrás " + (edad + 1) + años.); He cometido este error. Y hay que crear la nueva variable + 1.
+
+    </script>
+</body>
+</html>
+
